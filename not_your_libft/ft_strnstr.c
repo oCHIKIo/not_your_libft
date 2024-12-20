@@ -37,12 +37,3 @@ char	*ft_strnstr(const char *hs, const char *ndl, size_t len)
 	}
 	return (NULL);
 }
-/*#include <stdio.h>
-int	main(void)
-{
-	const char *haystack = "Hello, world!";
-	const char *needle = "world";
-	size_t len = 0;
-	char *result = ft_strnstr(haystack, needle, len);
-	printf("%s\n", result);
-}*/
