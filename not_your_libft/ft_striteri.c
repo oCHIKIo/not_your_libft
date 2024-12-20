@@ -27,16 +27,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		counter++;
 	}
 }
-/*#include <stdio.h>
-static void	ft_toupper_mapi(unsigned int i, char *c)
-{
-	(void)i;
-	*c = (char)ft_toupper((int)(*c));
-}
-int	main(void)
-{
-	char s[] = "hello world!";
-	ft_striteri(s, ft_toupper_mapi);
-	printf("%s\n", s);
-	return (0);
-}*/
