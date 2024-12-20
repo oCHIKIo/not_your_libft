@@ -37,18 +37,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	ptr[counter] = '\0';
 	return (ptr);
 }
-
-/*#include <stdio.h>
-static  char	ft_toupper_mapi(unsigned int i, char c)
-{
-	(void)i;
-	return (char)ft_toupper((int)c);
-}
-int	main(void)
-{
-	char *s = "hello world!";
-	char *result = ft_strmapi(s, ft_toupper_mapi);
-	printf("%s\n", result);
-	free(result);
-	return (0);
-}*/
