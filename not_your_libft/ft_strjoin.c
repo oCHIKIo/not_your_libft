@@ -38,12 +38,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[counter + bounter] = '\0';
 	return (str);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char *s1 = "";
-	char *s2 = "World";
-	char *str = ft_strjoin(s1, s2);
-	printf("%s\n", str);
-}*/
