@@ -39,10 +39,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
-/*#include <stdio.h>
-int	main(void)
-{
-	char	*result;
-	result = ft_substr("Hello, world!", 2, 8);
-	printf("%s\n", result);
-}*/
