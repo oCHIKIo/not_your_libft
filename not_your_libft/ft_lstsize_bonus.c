@@ -24,24 +24,3 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (counter);
 }
-/*#include <stdio.h>
-int	main(void)
-{
-	t_list  *header = NULL;
-	t_list  *node1 = ft_lstnew("world!");
-	t_list  *node2 = ft_lstnew("Hello");
-	t_list  *node3 = ft_lstnew("world!");
-	t_list  *node4 = ft_lstnew("Hello");
-
-	ft_lstadd_front(&header, node1);
-	ft_lstadd_front(&header, node2);
-	ft_lstadd_front(&header, node3);
-	ft_lstadd_front(&header, node4);
-
-	printf("%d\n", ft_lstsize(header));
-
-	free(node1);
-	free(node2);
-	free(node3);
-	free(node4);
-}*/
