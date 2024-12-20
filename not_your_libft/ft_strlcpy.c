@@ -29,15 +29,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	dst[counter] = '\0';
 	return (ft_strlen(src));
 }
-/*#include <stdio.h>
-int	main(void)
-{
-	char dest[10] = "BRO";
-	char src[] = "WSUP";
-
-	// Set size to 1 to copy only the first character
-	printf("Length of src: %zu\n", ft_strlcpy(dest, src, 1));
-	printf("Destination after copy: '%s'\n", dest);
-
-	return (0);
-}*/
