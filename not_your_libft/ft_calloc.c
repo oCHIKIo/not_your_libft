@@ -24,9 +24,3 @@ void	*ft_calloc(size_t number_blocks, size_t size)
 	ft_bzero(ptr, number_blocks * size);
 	return (ptr);
 }
-/*#include <stdio.h>
-int main()
-{
-	char *ptr = ft_calloc(10, 10);
-	printf("%s", ptr);
-}*/
