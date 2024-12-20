@@ -89,16 +89,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (ptr);
 }
-/*#include <stdio.h>
- int	main(void)
- {
-		int counter;
-		char **str = ft_split("hello1world1test", '1');
-
-		counter = 0;
-		while (str[counter] != NULL)
-		{
-			printf("%s\n", str[counter]);
-			counter++;
-		}
-}*/
