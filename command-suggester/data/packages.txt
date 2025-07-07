@@ -1,0 +1,73 @@
+# Package Information File
+# Format: package:description
+# This file provides additional information about packages
+
+coreutils:Essential command line utilities for GNU/Linux systems
+grep:GNU grep, a pattern matching utility
+sed:Stream editor for filtering and transforming text
+gawk:GNU implementation of AWK programming language
+findutils:Utilities for finding files (find, locate, updatedb, xargs)
+procps:Process and system monitoring utilities
+htop:Interactive process viewer and system monitor
+vim:Vi IMproved - enhanced vi editor
+nano:Simple command-line text editor
+emacs:Extensible real-time text editor
+less:Terminal pager program for viewing file contents
+util-linux:Miscellaneous system utilities for Linux
+gcc:GNU Compiler Collection for C/C++
+g++:GNU Compiler Collection for C++
+clang:C language family frontend for LLVM
+make:Utility for directing compilation
+cmake:Cross-platform build system generator
+gdb:GNU Debugger for program debugging
+git:Distributed version control system
+openssh-client:Secure shell client for remote login
+curl:Tool for transferring data with URL syntax
+wget:Non-interactive network downloader
+tar:Archiving utility for creating and extracting archives
+zip:Archiver for creating ZIP files
+unzip:Utility for extracting ZIP archives
+gzip:GNU compression utility
+bzip2:High-quality block-sorting file compressor
+apt:Advanced Package Tool for Debian/Ubuntu
+dpkg:Debian package management system
+systemd:System and service manager for Linux
+sudo:Execute commands as another user
+passwd:Password management utilities
+man-db:Manual page database and utilities
+ncurses-bin:Terminal handling library utilities
+bash:GNU Bourne Again SHell
+net-tools:Networking utilities (ifconfig, netstat, route)
+iproute2:Modern networking utilities (ip, ss)
+iputils-ping:Network connectivity testing tool
+dnsutils:DNS lookup utilities (dig, nslookup)
+rsync:Fast incremental file transfer utility
+bind9-host:DNS lookup utility
+psmisc:Process management utilities (killall, pgrep)
+plocate:Fast file locating utility
+debianutils:Miscellaneous utilities specific to Debian
+finger:User information lookup program
+snapd:Snap package management system
+info:GNU info document system
+bc:Arbitrary precision calculator language
+most:Terminal pager program with multiple features
+subversion:Centralized version control system
+mercurial:Distributed version control system
+bzr:Bazaar distributed version control system
+valgrind:Programming tool for memory debugging
+strace:System call tracer
+ltrace:Library call tracer
+p7zip-full:7-Zip file archiver
+rar:RAR archiver
+unrar:RAR archive extractor
+xz-utils:XZ-format compression utilities
+gedit:GNOME text editor
+parted:Disk partition manipulation program
+aptitude:Terminal-based package manager
+traceroute:Network diagnostic tool
+telnet:Telnet client
+ftp:File Transfer Protocol client
+hostname:Utility to display or set system hostname
+libc-bin:GNU C Library binary utilities
+pdd:Date and time calculation utility
+lsof:List open files utility

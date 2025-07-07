@@ -1,0 +1,201 @@
+# Command Database File
+# Format: command:package:version
+# Lines starting with # are comments
+
+# Core utilities
+ls:coreutils:8.32-4.1ubuntu1.2
+pwd:coreutils:8.32-4.1ubuntu1.2
+cat:coreutils:8.32-4.1ubuntu1.2
+cp:coreutils:8.32-4.1ubuntu1.2
+mv:coreutils:8.32-4.1ubuntu1.2
+rm:coreutils:8.32-4.1ubuntu1.2
+mkdir:coreutils:8.32-4.1ubuntu1.2
+rmdir:coreutils:8.32-4.1ubuntu1.2
+touch:coreutils:8.32-4.1ubuntu1.2
+chmod:coreutils:8.32-4.1ubuntu1.2
+chown:coreutils:8.32-4.1ubuntu1.2
+df:coreutils:8.32-4.1ubuntu1.2
+du:coreutils:8.32-4.1ubuntu1.2
+head:coreutils:8.32-4.1ubuntu1.2
+tail:coreutils:8.32-4.1ubuntu1.2
+sort:coreutils:8.32-4.1ubuntu1.2
+uniq:coreutils:8.32-4.1ubuntu1.2
+wc:coreutils:8.32-4.1ubuntu1.2
+whoami:coreutils:8.32-4.1ubuntu1.2
+date:coreutils:8.32-4.1ubuntu1.2
+echo:coreutils:8.32-4.1ubuntu1.2
+printf:coreutils:8.32-4.1ubuntu1.2
+cut:coreutils:8.32-4.1ubuntu1.2
+paste:coreutils:8.32-4.1ubuntu1.2
+tr:coreutils:8.32-4.1ubuntu1.2
+basename:coreutils:8.32-4.1ubuntu1.2
+dirname:coreutils:8.32-4.1ubuntu1.2
+readlink:coreutils:8.32-4.1ubuntu1.2
+stat:coreutils:8.32-4.1ubuntu1.2
+sync:coreutils:8.32-4.1ubuntu1.2
+
+# Text processing
+grep:grep:3.6-1build1
+egrep:grep:3.6-1build1
+fgrep:grep:3.6-1build1
+sed:sed:4.8-1ubuntu2
+awk:gawk:1:5.1.0-1ubuntu0.1
+gawk:gawk:1:5.1.0-1ubuntu0.1
+
+# File finding and navigation
+find:findutils:4.8.0-1ubuntu3
+locate:plocate:1.1.15-1ubuntu2
+updatedb:plocate:1.1.15-1ubuntu2
+which:debianutils:5.7-0.3
+whereis:util-linux:2.37.2-4ubuntu3.4
+type:bash:5.1-6ubuntu1.1
+
+# Process management
+ps:procps:2:3.3.17-6ubuntu2.1
+top:procps:2:3.3.17-6ubuntu2.1
+htop:htop:3.0.5-7build2
+kill:procps:2:3.3.17-6ubuntu2.1
+killall:psmisc:23.4-2build3
+pkill:procps:2:3.3.17-6ubuntu2.1
+pgrep:procps:2:3.3.17-6ubuntu2.1
+nohup:coreutils:8.32-4.1ubuntu1.2
+jobs:bash:5.1-6ubuntu1.1
+bg:bash:5.1-6ubuntu1.1
+fg:bash:5.1-6ubuntu1.1
+free:procps:2:3.3.17-6ubuntu2.1
+uptime:procps:2:3.3.17-6ubuntu2.1
+
+# Text editors
+vim:vim:2:8.2.3458-2ubuntu2.2
+vi:vim:2:8.2.3458-2ubuntu2.2
+nano:nano:6.2-1
+emacs:emacs:1:27.1+1-3ubuntu5
+gedit:gedit:41.0-3
+
+# Pagers
+less:less:590-1ubuntu0.22.04.3
+more:util-linux:2.37.2-4ubuntu3.4
+most:most:5.1.0-1
+pg:util-linux:2.37.2-4ubuntu3.4
+
+# Development tools
+gcc:gcc:4:11.2.0-1ubuntu1
+g++:g++:4:11.2.0-1ubuntu1
+clang:clang:1:14.0-55~exp2
+make:make:4.3-4.1build1
+cmake:cmake:3.22.1-1ubuntu1.22.04.2
+gdb:gdb:12.1-0ubuntu1~22.04.2
+valgrind:valgrind:1:3.18.1-1ubuntu2
+strace:strace:5.16-0ubuntu3
+ltrace:ltrace:0.7.3-6.1ubuntu1
+
+# Version control
+git:git:1:2.34.1-1ubuntu1.11
+svn:subversion:1.14.1-3ubuntu0.22.04.1
+bzr:bzr:2.7.0+bzr6622+brz
+hg:mercurial:6.1.1-1ubuntu1
+
+# Network tools
+ssh:openssh-client:1:8.9p1-3ubuntu0.10
+scp:openssh-client:1:8.9p1-3ubuntu0.10
+sftp:openssh-client:1:8.9p1-3ubuntu0.10
+rsync:rsync:3.2.7-0ubuntu0.22.04.2
+curl:curl:7.81.0-1ubuntu1.18
+wget:wget:1.21.2-2ubuntu1
+ftp:ftp:20210827-4build1
+telnet:telnet:0.17-44build1
+ping:iputils-ping:3:20211215-1
+ping6:iputils-ping:3:20211215-1
+traceroute:traceroute:1:2.1.0-2ubuntu1
+nslookup:dnsutils:1:9.18.28-0ubuntu0.22.04.1
+dig:dnsutils:1:9.18.28-0ubuntu0.22.04.1
+host:bind9-host:1:9.18.28-0ubuntu0.22.04.1
+netstat:net-tools:1.60+git20181103.0eebece-1ubuntu5
+ss:iproute2:5.15.0-1ubuntu2
+ifconfig:net-tools:1.60+git20181103.0eebece-1ubuntu5
+ip:iproute2:5.15.0-1ubuntu2
+route:net-tools:1.60+git20181103.0eebece-1ubuntu5
+arp:net-tools:1.60+git20181103.0eebece-1ubuntu5
+
+# Archive and compression
+tar:tar:1.34+dfsg-1ubuntu0.1.22.04.2
+zip:zip:3.0-12build2
+unzip:unzip:6.0-26ubuntu3.2
+gzip:gzip:1.10-4ubuntu4.1
+gunzip:gzip:1.10-4ubuntu4.1
+bzip2:bzip2:1.0.8-5build1
+bunzip2:bzip2:1.0.8-5build1
+xz:xz-utils:5.2.5-2ubuntu1
+unxz:xz-utils:5.2.5-2ubuntu1
+7z:p7zip-full:16.02+dfsg-8
+rar:rar:2:6.02-1
+unrar:unrar:1:6.0.3-1ubuntu1
+
+# System information
+uname:coreutils:8.32-4.1ubuntu1.2
+hostname:hostname:3.23ubuntu2
+id:coreutils:8.32-4.1ubuntu1.2
+groups:coreutils:8.32-4.1ubuntu1.2
+who:coreutils:8.32-4.1ubuntu1.2
+w:procps:2:3.3.17-6ubuntu2.1
+users:coreutils:8.32-4.1ubuntu1.2
+last:util-linux:2.37.2-4ubuntu3.4
+lastlog:util-linux:2.37.2-4ubuntu3.4
+finger:finger:0.17-17
+env:coreutils:8.32-4.1ubuntu1.2
+printenv:coreutils:8.32-4.1ubuntu1.2
+
+# File system
+mount:util-linux:2.37.2-4ubuntu3.4
+umount:util-linux:2.37.2-4ubuntu3.4
+fdisk:util-linux:2.37.2-4ubuntu3.4
+parted:parted:3.4-2build1
+mkfs:util-linux:2.37.2-4ubuntu3.4
+fsck:util-linux:2.37.2-4ubuntu3.4
+lsblk:util-linux:2.37.2-4ubuntu3.4
+blkid:util-linux:2.37.2-4ubuntu3.4
+
+# Package management (Ubuntu/Debian)
+apt:apt:2.4.12
+apt-get:apt:2.4.12
+apt-cache:apt:2.4.12
+dpkg:dpkg:1.21.1ubuntu2.3
+aptitude:aptitude:0.8.13-5ubuntu5
+snap:snapd:2.63+22.04ubuntu0.1
+
+# System control
+systemctl:systemd:249.11-0ubuntu3.12
+service:systemd:249.11-0ubuntu3.12
+sudo:sudo:1.9.9-1ubuntu2.4
+su:util-linux:2.37.2-4ubuntu3.4
+passwd:passwd:1:4.8.1-2ubuntu2.2
+chsh:passwd:1:4.8.1-2ubuntu2.2
+chfn:passwd:1:4.8.1-2ubuntu2.2
+
+# Documentation
+man:man-db:2.10.2-1
+info:info:6.8-4build1
+apropos:man-db:2.10.2-1
+whatis:man-db:2.10.2-1
+
+# Utilities
+clear:ncurses-bin:6.3-2ubuntu0.1
+reset:ncurses-bin:6.3-2ubuntu0.1
+tput:ncurses-bin:6.3-2ubuntu0.1
+watch:procps:2:3.3.17-6ubuntu2.1
+sleep:coreutils:8.32-4.1ubuntu1.2
+timeout:coreutils:8.32-4.1ubuntu1.2
+yes:coreutils:8.32-4.1ubuntu1.2
+seq:coreutils:8.32-4.1ubuntu1.2
+bc:bc:1.07.1-3build1
+dc:bc:1.07.1-3build1
+expr:coreutils:8.32-4.1ubuntu1.2
+test:coreutils:8.32-4.1ubuntu1.2
+tee:coreutils:8.32-4.1ubuntu1.2
+xargs:findutils:4.8.0-1ubuntu3
+
+# Common typos for testing
+pldd:libc-bin:2.35-0ubuntu3.9
+pdd:pdd:1.5-1
+pwdx:procps:2:3.3.17-6ubuntu2.1
+lsof:lsof:4.93.2+dfsg-1.1build2
